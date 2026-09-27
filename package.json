@@ -1,0 +1,17 @@
+{
+  "name": "borozdov-salon",
+  "private": true,
+  "description": "Editorial ink on white and mint cream: a sharp display serif, warm black pills and one chartreuse highlighter for what matters.",
+  "license": "MIT",
+  "scripts": {
+    "fonts": "python3 scripts/embed-fonts.py",
+    "lint": "stylelint theme.css",
+    "build": "node scripts/build.mjs",
+    "screenshots": "python3 scripts/screenshots.py"
+  },
+  "devDependencies": {
+    "lucide-static": "^1.47.0",
+    "stylelint": "^17.0.0",
+    "stylelint-config-obsidianmd": "^0.1.0"
+  }
+}
